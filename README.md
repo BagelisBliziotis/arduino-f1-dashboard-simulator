@@ -7,7 +7,7 @@ a race car ECU: read sensors → process data → drive outputs → log telemetr
 
 *Component / Simulates: 
 
--Joystick Y-axis / Throttle pedal position sensor (TPS) 
+-Joystick Y-axis / Throttle pedal position sensor 
 -Potentiometer / Brake pressure sensor
 -Joystick X-axis / Steering angle sensor 
 -Servo / Rev counter | gauge needle
@@ -39,6 +39,5 @@ idea of persistent state that survives across loop iterations and can
 only be cleared by one only action.
 
 DEMO:
-
 https://github.com/user-attachments/assets/ad471b8a-20d1-4b3e-9a23-35eb180e89cd
 
