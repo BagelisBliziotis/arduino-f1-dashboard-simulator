@@ -29,14 +29,14 @@ to Serial simulating a driver acknowledging a dashboard warning.
 
 *What i learned:
 
-First time using a servo as a real-time output driven continuously by 
+First time using a servo as a real time output driven continuously by 
 a sensor rather than moved to fixed positions as well as first time 
 using an rgb light which i learn to be very practical.Managing three outputs 
 reacting to the same input simultaneously each in a different way  
 required thinking about output coordination rather than just input logic. 
 The one-shot buzzer trigger with an external reset also introduced the 
 idea of persistent state that survives across loop iterations and can 
-only be cleared by one only action.
+only be cleared by a sigle  action.
 
 DEMO:
 https://github.com/user-attachments/assets/ad471b8a-20d1-4b3e-9a23-35eb180e89cd
